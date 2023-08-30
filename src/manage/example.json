@@ -1,0 +1,720 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2778,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "2SW3e8i2ZLQC",
+      "etag": "no3VWOT7QF0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2SW3e8i2ZLQC",
+      "volumeInfo": {
+        "title": "Hello Mum",
+        "authors": ["Bernardine Evaristo"],
+        "publisher": "Penguin UK",
+        "publishedDate": "2010-03-04",
+        "description": "It's a hot summer afternoon. Tension is in the air. A gang of youths on bikes gathers outside a chip shop. A teenage boy is stabbed and left bleeding on the street. The boy's mother wonders how this could have happened to her son. She is full of questions, but when the answers lie so close to home, are they really what she wants to hear?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780141044385"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0141044381"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 71,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2SW3e8i2ZLQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2SW3e8i2ZLQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=2SW3e8i2ZLQC&printsec=frontcover&dq=hello&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=2SW3e8i2ZLQC&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hello_Mum.html?hl=&id=2SW3e8i2ZLQC"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Hello_Mum-sample-epub.acsm?id=2SW3e8i2ZLQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2SW3e8i2ZLQC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "It&#39;s a hot summer afternoon."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wWkbGQAACAAJ",
+      "etag": "0VIweeUQ+Qw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wWkbGQAACAAJ",
+      "volumeInfo": {
+        "title": "Goodbye, Hello!",
+        "authors": ["Rob Waring", "Maurice Jamall"],
+        "publisher": "Heinle & Heinle Pub",
+        "publishedDate": "2006-01-01",
+        "description": "Alex and his sister Daniela are shopping for their mother's birthday. Suddenly, a little girl drives her shopping cart into Alex by accident. The little girl starts crying and her older sister asks the girl to apologize to Alex. Alex thinks that the older girl is very beautiful, but she leaves before he can ask her name. Alex goes to school the next day and sees that the beautiful girl is a new student in his class.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "141302761X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781413027617"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 16,
+        "printType": "BOOK",
+        "categories": ["Foreign Language Study"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=wWkbGQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=wWkbGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=wWkbGQAACAAJ&dq=hello&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=wWkbGQAACAAJ&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Goodbye_Hello.html?hl=&id=wWkbGQAACAAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=wWkbGQAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Alex and his sister Daniela are shopping for their mother&#39;s birthday."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VunJCgAAQBAJ",
+      "etag": "nNCMCJyFPRA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VunJCgAAQBAJ",
+      "volumeInfo": {
+        "title": "Hello, Startup",
+        "subtitle": "A Programmer's Guide to Building Products, Technologies, and Teams",
+        "authors": ["Yevgeniy Brikman"],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2015-10-21",
+        "description": "This book is the \"Hello, World\" tutorial for building products, technologies, and teams in a startup environment. It's based on the experiences of the author, Yevgeniy (Jim) Brikman, as well as interviews with programmers from some of the most successful startups of the last decade, including Google, Facebook, LinkedIn, Twitter, GitHub, Stripe, Instagram, AdMob, Pinterest, and many others. Hello, Startup is a practical, how-to guide that consists of three parts: Products, Technologies, and Teams. Although at its core, this is a book for programmers, by programmers, only Part II (Technologies) is significantly technical, while the rest should be accessible to technical and non-technical audiences alike. If you’re at all interested in startups—whether you’re a programmer at the beginning of your career, a seasoned developer bored with large company politics, or a manager looking to motivate your engineers—this book is for you.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781491910054"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1491910054"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 599,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VunJCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VunJCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=VunJCgAAQBAJ&printsec=frontcover&dq=hello&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=VunJCgAAQBAJ&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hello_Startup.html?hl=&id=VunJCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VunJCgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book is the &quot;Hello, World&quot; tutorial for building products, technologies, and teams in a startup environment."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nqEToRx5ek4C",
+      "etag": "ajlAGY27MPU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nqEToRx5ek4C",
+      "volumeInfo": {
+        "title": "Hello!",
+        "authors": ["Janine Amos"],
+        "publisher": "Cherrytree Books",
+        "publishedDate": "2005",
+        "description": "Provides examples of good manners demonstrated by children in a variety of situations which illustrate the importance of saying hello. Includes notes for teachers.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1842343041"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781842343043"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 36,
+        "printType": "BOOK",
+        "categories": ["Etiquette"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.5.4.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nqEToRx5ek4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nqEToRx5ek4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=nqEToRx5ek4C&printsec=frontcover&dq=hello&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=nqEToRx5ek4C&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hello.html?hl=&id=nqEToRx5ek4C"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Hello-sample-pdf.acsm?id=nqEToRx5ek4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nqEToRx5ek4C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Provides examples of good manners demonstrated by children in a variety of situations which illustrate the importance of saying hello. Includes notes for teachers."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KZpSzwEACAAJ",
+      "etag": "zscJ+xL5rcw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KZpSzwEACAAJ",
+      "volumeInfo": {
+        "title": "Hello Beautiful",
+        "authors": ["Ann Napolitano"],
+        "publisher": "Viking",
+        "publishedDate": "2023-03-13",
+        "description": "Best friends and sisters, the four Padvano girls are thought of as inseparable by everyone in their close-knit Chicago neighbourhood. Julia, the eldest, is a planner. Sylvie, the dreamer, is happiest with her nose in a book and imagines a life for herself other than the expected path of wife and mother. Cecelia and Emmeline, the twins, are the artist and the caregiver. From childhood, the four sisters complete each other. But when Julia falls in love with William Walters, their lives change. As William falls into darkness, it is Sylvie, not Julie, who steps in to help. Spanning decades and generations, HELLO BEAUTIFUL captures what it means to be a family -- the joy and tragedy, the deep trust and devastating betrayals. Split apart by stubbornness and heartbreak, the Padavano family scatters across the country. Will the love and loyalty that once rooted them be strong enough to draw them back together?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "024162827X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780241628270"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4.5,
+        "ratingsCount": 7,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=KZpSzwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KZpSzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=KZpSzwEACAAJ&dq=hello&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=KZpSzwEACAAJ&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hello_Beautiful.html?hl=&id=KZpSzwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KZpSzwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Rich and vivid, heartbreaking and heart-mending, Hello Beautiful captures the joy, tragedy, trust, and betrayal to ask: what does it mean to be a family?"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OEJDcZRDP70C",
+      "etag": "D6+Kl2ZD9FY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OEJDcZRDP70C",
+      "volumeInfo": {
+        "title": "Hello Hello",
+        "subtitle": "A Romantic Satire",
+        "authors": ["Karen Hines"],
+        "publisher": "Coach House Books",
+        "publishedDate": "2006",
+        "description": "In the vast, unnamed metropolis of Hello ... Hello, art and commerce have finally and completely conjoined; stylish cafés serve up zebra mussels and the air is thick with a gentle rain of sparrows plummeting down from the mirrored office towers. Everywhere, people are falling for an edgy new fashion accessory: a shiny ball filled with poison that hangs from a delicate chain. In this oddly peaceful world, Cassandra, a salesgirl at a clothing store called the Abyss, meets a charismatic ad man named Ben in the graveyard where she is mourning her lover, the last true artist on earth. They find themselves helplessly attracted to one another. Ben walks Cassandra home and invites her out to dinner, which leads to sex, marriage and a house in Semi-Residentia. Then comes baby. All one and a half inches of her. Hello ... Hello, nominated for several Dora awards, including Best Play and Best Musical, is a tragic, comedic and curiously erotic attack on western society's predilection for escapist consumerism and entertainment. If the boy-meets-girl musical is the shiny happy ball, then the content of the play, and its characters, are the poison held within.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1552451712"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781552451717"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 180,
+        "printType": "BOOK",
+        "categories": ["Drama"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OEJDcZRDP70C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OEJDcZRDP70C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=OEJDcZRDP70C&printsec=frontcover&dq=hello&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=OEJDcZRDP70C&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hello_Hello.html?hl=&id=OEJDcZRDP70C"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OEJDcZRDP70C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Hello ... Hello, nominated for several Dora awards, including Best Play and Best Musical, is a tragic, comedic and curiously erotic attack on western society&#39;s predilection for escapist consumerism and entertainment."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SQBZswEACAAJ",
+      "etag": "oYfAwlfEuB4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SQBZswEACAAJ",
+      "volumeInfo": {
+        "title": "Hello from Around the World",
+        "authors": ["Gioula Chelten"],
+        "publishedDate": "2017-10-23",
+        "description": "A fascinating exploration of children around the world! This is a fun and engaging picture book by the new author, Gioula Chelten. It is written in rhyme, which makes it an entertaining read for children of all ages. With awareness of their cultural identity, the author delves into the lives of children from 12 countries around the world. It is a captivating picture book with bright and vivid colors. The illustrations are beautifully authentic, portraying life as it is where they come from. \"Hello from Around the World\" is Fun yet Informative. Without realizing it, your child will be learning too! Children are intrigued by cultural differences. They are interested in the traditional foods, lifestyle, language, hobbies, sports and culture of others. \"Hello from Around the World\" delivers. The book explores the most common activities, foods and language shared in these 12 different countries. There is a particular focus on how they say \"hello\" and \"thank you\". Each child is also introduced by their traditional/ common name, making it a truly authentic experience. The book is written in first person. This allows your little reader a more personal connection with his/her new friends from around the world. Pronunciation guides are also provided for the basic words. This allows for a fun, easy and interactive experience. Watch your little ones try to replicate the new words they are introduced to. (Basic words include: Hello, thank you, and a traditional food). Say \"Hello\" to your new friends from: Brazil Australia South Africa France Egypt Germany Japan India Mexico Russia USA China This book is an excellent introduction into the lives of children around the world. It puts your child on a journey of exploration. Your child will love \"Hello from Around the World.\" Click the ADD TO CART button now!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1978023316"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781978023314"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 54,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=SQBZswEACAAJ&dq=hello&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=SQBZswEACAAJ&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hello_from_Around_the_World.html?hl=&id=SQBZswEACAAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SQBZswEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A fascinating exploration of children around the world! This is a fun and engaging picture book by the new author, Gioula Chelten. It is written in rhyme, which makes it an entertaining read for children of all ages."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8r9HCgAAQBAJ",
+      "etag": "IQLyN2/0UL8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8r9HCgAAQBAJ",
+      "volumeInfo": {
+        "title": "Say Hello!",
+        "authors": ["Linda Davick"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2015-08-04",
+        "description": "Illustrations and rhyming text reveal that \"hello\" can be said many ways, from a handshake to a dance of happiness, and that the world would be a lot more fun if more hellos were shared.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781481428675"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1481428675"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 40,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8r9HCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8r9HCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=8r9HCgAAQBAJ&printsec=frontcover&dq=hello&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=8r9HCgAAQBAJ&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Say_Hello.html?hl=&id=8r9HCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8r9HCgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Illustrations and rhyming text reveal that &quot;hello&quot; can be said many ways, from a handshake to a dance of happiness, and that the world would be a lot more fun if more hellos were shared."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "V2yu7X4J7VoC",
+      "etag": "FvfRF7QXvQU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/V2yu7X4J7VoC",
+      "volumeInfo": {
+        "title": "Hello Dad",
+        "authors": ["Karen Bali"],
+        "publisher": "WritersPrintShop",
+        "publishedDate": "2004",
+        "description": "Have you lost contact with your father? Perhaps you never knew him or have only vague childhood memories. There are many thousands of adults in the UK who have no relationship with one of their closest relatives. Karen Bali, an experienced UK researcher, leads you through the maze of records and resources whilst giving expert advice on how to conduct your search with speed, discretion and minimum expense.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1904623107"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781904623106"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 76,
+        "printType": "BOOK",
+        "categories": ["Father and child"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.4.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=V2yu7X4J7VoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=V2yu7X4J7VoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=V2yu7X4J7VoC&pg=PA22&dq=hello&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.co.uk/books?id=V2yu7X4J7VoC&dq=hello&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hello_Dad.html?hl=&id=V2yu7X4J7VoC"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Hello_Dad-sample-pdf.acsm?id=V2yu7X4J7VoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=V2yu7X4J7VoC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... who knew Brian at the time is anxious to get in touch with him . If you are the Brian Jenks who went to Ealing College , please can you contact me at the address above or give me a call as soon as you 22 \u003cb\u003eHello\u003c/b\u003e Dad - Finding your Father."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "UUFADwAAQBAJ",
+      "etag": "Zfz0DqMfck0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/UUFADwAAQBAJ",
+      "volumeInfo": {
+        "title": "Hello World",
+        "subtitle": "",
+        "authors": ["Murray Ewing"],
+        "publisher": "Bookship",
+        "publishedDate": "2017-11-08",
+        "description": "It’s 1984, and 13-year-old Tim is sitting on the school roof, waiting for the world to end. Or at least for it to start making sense. His life used to make sense. It was made up of two things: the exciting new world of home computers, and worries about nuclear war. There were certainly no girls in it. But then he met Penny, who’s into pop music, and somehow manages to be optimistic about life, despite having a very difficult mother. (Difficult, as in, she sometimes throws roof tiles at people.) For the first time since the death of his own mother three years ago, Tim starts to see a whole new possibility in life. Then he loses Penny. So what else is there to do but climb onto the school roof and wait for the world to end?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780993423932"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0993423930"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 266,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=UUFADwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=UUFADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.uk/books?id=UUFADwAAQBAJ&pg=PT50&dq=hello&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=UUFADwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UUFADwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3.99,
+          "currencyCode": "GBP"
+        },
+        "retailPrice": {
+          "amount": 3.99,
+          "currencyCode": "GBP"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=UUFADwAAQBAJ&rdid=book-UUFADwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3990000,
+              "currencyCode": "GBP"
+            },
+            "retailPrice": {
+              "amountInMicros": 3990000,
+              "currencyCode": "GBP"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Hello_World-sample-epub.acsm?id=UUFADwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=UUFADwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "20 GOTO 10 Then I pressed RUN and ENTER, and the screen filled up with &#39;\u003cb\u003eHello\u003c/b\u003e Penny! \u003cb\u003eHello\u003c/b\u003e Penny!&#39; over and over again. &#39;Wow! It&#39;s saying \u003cb\u003ehello\u003c/b\u003e to me.&#39; She seemed genuinely touched. &#39;Only because I told it to,&#39; I said."
+      }
+    }
+  ]
+}
