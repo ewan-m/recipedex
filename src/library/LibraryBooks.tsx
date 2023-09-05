@@ -8,6 +8,8 @@ export const LibraryBooks: FunctionComponent<{
 }> = ({ books }) => {
   const [animated] = useAutoAnimate();
 
+  console.log(books);
+
   return (
     <section
       ref={animated}

@@ -18,7 +18,7 @@ export const LoginPage = () => {
   return (
     <AppContainer>
       <div className="flex flex-col items-center gap-4">
-        <h1 className="line-clamp-3 pb-1 text-5xl font-bold text-emerald-600 md:text-7xl">
+        <h1 className="line-clamp-3 pb-1 text-5xl font-bold text-white md:text-7xl">
           recipedex
         </h1>
         <button

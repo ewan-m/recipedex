@@ -12,7 +12,7 @@ export const useUserLibrary = () => {
   const userBooks = useQuery([queryKey.userBooks], async () => {
     if (auth.isLoggedIn) {
       const res = await fetch(
-        `${baseUrl}/volumes?access_token=${auth.accessToken}`,
+        `${baseUrl}/volumes?access_token=${auth.accessToken}&maxResults=50`,
       );
 
       if (!res.ok) {
@@ -21,16 +21,22 @@ export const useUserLibrary = () => {
 
       const json = (await res.json()) as GoogleBooksResponse;
 
-      return (json.items ?? []).map((item) => ({
-        author: item.volumeInfo?.authors ?? [],
-        title: item.volumeInfo.title,
-        isbn:
-          item.volumeInfo.industryIdentifiers?.find(
-            (id) => id.type === "ISBN_13",
-          )?.identifier ?? "",
-        imageUrl: item.volumeInfo.imageLinks?.thumbnail ?? "",
-        volumeId: item.id,
-      }));
+      return (json.items ?? [])
+        .map((item) => ({
+          author: item.volumeInfo?.authors ?? [],
+          title: item.volumeInfo.title,
+          isbn:
+            item.volumeInfo.industryIdentifiers?.find(
+              (id) => id.type === "ISBN_13",
+            )?.identifier ?? "",
+          imageUrl: item.volumeInfo.imageLinks?.thumbnail ?? "",
+          volumeId: item.id,
+        }))
+        .sort((a, b) =>
+          `${a.author.join(",")} ${a.title}`.localeCompare(
+            `${b.author.join(",")} ${b.title}`,
+          ),
+        );
     }
     return [];
   });

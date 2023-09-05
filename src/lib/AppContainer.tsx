@@ -16,11 +16,8 @@ export const AppContainer: FC<
 
   const auth = useAuth();
 
-  if (auth.isLoggedIn) {
-  }
-
   return (
-    <main className="grid min-h-screen place-items-center bg-gradient-to-t from-white to-gray-50 p-5">
+    <main className="grid min-h-screen place-items-center bg-gradient-to-t from-blue-200 to-indigo-900 p-5">
       {!title ? (
         children
       ) : (
@@ -28,9 +25,9 @@ export const AppContainer: FC<
           <div className="mb-5 flex flex-row items-stretch justify-between">
             <div className="flex flex-col items-start justify-center">
               {breadcrumb && (
-                <span className="text-gray-300">
+                <span className="text-gray-600">
                   <Link
-                    className="font-light text-gray-600"
+                    className="font-light text-gray-200"
                     to={breadcrumb.to}
                     style={{ viewTransitionName: "library" }}
                   >
@@ -40,7 +37,7 @@ export const AppContainer: FC<
                 </span>
               )}
               <span className="flex flex-wrap items-baseline">
-                <h1 className="line-clamp-3 pb-1 text-4xl font-bold text-emerald-600 sm:text-5xl md:text-7xl">
+                <h1 className="line-clamp-3 pb-1 text-4xl font-bold text-gray-200 sm:text-5xl md:text-7xl">
                   {title}
                 </h1>
                 {subtitle && (

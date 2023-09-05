@@ -2,7 +2,6 @@ import Cookies from "js-cookie";
 import { atom, useAtom } from "jotai";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import decode from "jwt-decode";
 
 const googleTokenCookieKey = "googleToken-v1";
 
