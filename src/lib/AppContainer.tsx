@@ -37,7 +37,7 @@ export const AppContainer: FC<
                 </span>
               )}
               <span className="flex flex-wrap items-baseline">
-                <h1 className="line-clamp-3 pb-1 text-4xl font-bold text-gray-200 sm:text-5xl md:text-7xl">
+                <h1 className="line-clamp-2 pb-1 text-4xl font-bold text-gray-200 sm:text-5xl md:text-7xl">
                   {title}
                 </h1>
                 {subtitle && (

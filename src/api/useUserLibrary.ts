@@ -1,7 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useAuth } from "../lib/useAuth";
 import { queryKey } from "./queryKey";
-import { GoogleBooksResponse } from "./useBooks";
+import { ErrorResponse, GoogleBooksResponse } from "./useBooks";
 
 export const useUserLibrary = () => {
   const auth = useAuth();
@@ -15,11 +15,12 @@ export const useUserLibrary = () => {
         `${baseUrl}/volumes?access_token=${auth.accessToken}&maxResults=50`,
       );
 
-      if (!res.ok) {
-        throw new Error("Failed to fetch data");
-      }
+      const json = (await res.json()) as ErrorResponse | GoogleBooksResponse;
 
-      const json = (await res.json()) as GoogleBooksResponse;
+      if ("error" in json) {
+        auth.logout();
+        return [];
+      }
 
       return (json.items ?? [])
         .map((item) => ({

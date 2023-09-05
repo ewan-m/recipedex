@@ -8,8 +8,6 @@ export const LibraryBooks: FunctionComponent<{
 }> = ({ books }) => {
   const [animated] = useAutoAnimate();
 
-  console.log(books);
-
   return (
     <section
       ref={animated}
@@ -19,7 +17,7 @@ export const LibraryBooks: FunctionComponent<{
         <Link
           className="rounded-lg bg-gray-900 shadow-lg"
           key={`${book.title} ${book.author.join(",")} ${book.isbn}`}
-          to={`/library/${book.isbn}`}
+          to={`/library/${book.volumeId}`}
         >
           <div className="flex items-center p-3">
             <div className="flex h-44 w-32 shrink-0 items-center justify-center">

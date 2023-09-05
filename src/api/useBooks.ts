@@ -1,16 +1,20 @@
 import { UseQueryResult, useQuery } from "@tanstack/react-query";
 import { queryKey } from "./queryKey";
 
+export type GoogleBookResponse = {
+  id: string;
+  volumeInfo: {
+    title: string;
+    authors: string[];
+    industryIdentifiers: { type: "ISBN_13"; identifier: string }[];
+    imageLinks: { thumbnail: string; large?: string };
+  };
+};
+
+export type ErrorResponse = { error: { status: "UNAUTHENTICATED" } };
+
 export type GoogleBooksResponse = {
-  items?: {
-    id: string;
-    volumeInfo: {
-      title: string;
-      authors: string[];
-      industryIdentifiers: { type: "ISBN_13"; identifier: string }[];
-      imageLinks: { thumbnail: string };
-    };
-  }[];
+  items?: GoogleBookResponse[];
   totalItems: number;
 };
 
@@ -20,6 +24,38 @@ export type Book = {
   isbn: string;
   volumeId: string;
   imageUrl: string;
+};
+
+export const useBook = (volumeId: string | undefined): UseQueryResult<Book> => {
+  return useQuery(
+    [queryKey.book, volumeId],
+    async () => {
+      const url = `https://www.googleapis.com/books/v1/volumes/${volumeId}`;
+
+      const res = await fetch(url);
+
+      if (!res.ok) {
+        throw new Error("Failed to fetch data");
+      }
+
+      const item = (await res.json()) as GoogleBookResponse;
+
+      return {
+        author: item.volumeInfo?.authors ?? [],
+        title: item.volumeInfo.title,
+        isbn:
+          item.volumeInfo.industryIdentifiers?.find(
+            (id) => id.type === "ISBN_13",
+          )?.identifier ?? "",
+        imageUrl:
+          item.volumeInfo.imageLinks?.large ??
+          item.volumeInfo.imageLinks?.thumbnail ??
+          "",
+        volumeId: item.id,
+      };
+    },
+    { enabled: volumeId !== undefined },
+  );
 };
 
 export const useBooks = (query: string | null): UseQueryResult<Book[]> => {
